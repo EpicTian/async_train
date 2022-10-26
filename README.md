@@ -13,7 +13,7 @@ conda install multiprocess
 ```
 
 # Usage
-Run the following code in your SSH terminal:
+Code the ```async_train.py``` to suit your task then run the following code in your SSH terminal:
 ```shell
 nohup ./async_train.py > ./nohup_output.log 2>&1 &
 ```
