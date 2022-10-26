@@ -11,3 +11,9 @@ or
 ```shell
 conda install multiprocess
 ```
+
+# Usage
+Run the following code in your SSH terminal:
+```shell
+nohup ./async_train.py > ./nohup_output.log 2>&1 &
+```
